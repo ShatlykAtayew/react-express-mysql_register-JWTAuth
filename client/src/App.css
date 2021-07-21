@@ -1,0 +1,84 @@
+.App {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.registration, .login {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+input{
+  width: 300px;
+  height: 25px;
+  font-size: 20px;
+  padding-left: 10px;
+  margin: 5px;
+  
+}
+
+
+
+ .button1 button {
+  width: 160px;
+  height: 25px;
+  margin: 15px;
+ 
+}
+
+.registration button:hover {
+  cursor: pointer;
+}
+
+.employees {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  width: 50%;
+  margin-top: 15px;
+}
+
+tr:nth-child(even) {background-color: #8f8c8cfd;}
+
+th {
+  background-color: #1bbe5fd0;
+  color: black;
+  height: 30px;
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 2px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px 2px;
+  cursor: pointer;
+  border-radius: 2px;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
